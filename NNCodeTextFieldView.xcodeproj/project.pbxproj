@@ -15,6 +15,9 @@
 		CE634A461FA3001700C75C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE634A451FA3001700C75C39 /* main.m */; };
 		CE634A501FA3001700C75C39 /* NNCodeTextFieldViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE634A4F1FA3001700C75C39 /* NNCodeTextFieldViewTests.m */; };
 		CE634A5B1FA3001700C75C39 /* NNCodeTextFieldViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE634A5A1FA3001700C75C39 /* NNCodeTextFieldViewUITests.m */; };
+		CE634A6F1FA300E000C75C39 /* CodeTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE634A6B1FA300E000C75C39 /* CodeTextFieldView.m */; };
+		CE634A701FA300E000C75C39 /* DeleteKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE634A6D1FA300E000C75C39 /* DeleteKeyTextField.m */; };
+		CE634A711FA300E000C75C39 /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE634A6E1FA300E000C75C39 /* AuthcodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CE634A561FA3001700C75C39 /* NNCodeTextFieldViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNCodeTextFieldViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE634A5A1FA3001700C75C39 /* NNCodeTextFieldViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNCodeTextFieldViewUITests.m; sourceTree = "<group>"; };
 		CE634A5C1FA3001700C75C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE634A691FA300E000C75C39 /* DeleteKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteKeyTextField.h; sourceTree = "<group>"; };
+		CE634A6A1FA300E000C75C39 /* CodeTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTextFieldView.h; sourceTree = "<group>"; };
+		CE634A6B1FA300E000C75C39 /* CodeTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTextFieldView.m; sourceTree = "<group>"; };
+		CE634A6C1FA300E000C75C39 /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		CE634A6D1FA300E000C75C39 /* DeleteKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteKeyTextField.m; sourceTree = "<group>"; };
+		CE634A6E1FA300E000C75C39 /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		CE634A351FA3001600C75C39 /* NNCodeTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
+				CE634A681FA3008E00C75C39 /* CodeTextFieldView */,
 				CE634A361FA3001600C75C39 /* AppDelegate.h */,
 				CE634A371FA3001600C75C39 /* AppDelegate.m */,
 				CE634A391FA3001700C75C39 /* ViewController.h */,
@@ -130,6 +140,19 @@
 				CE634A5C1FA3001700C75C39 /* Info.plist */,
 			);
 			path = NNCodeTextFieldViewUITests;
+			sourceTree = "<group>";
+		};
+		CE634A681FA3008E00C75C39 /* CodeTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				CE634A6C1FA300E000C75C39 /* AuthcodeView.h */,
+				CE634A6E1FA300E000C75C39 /* AuthcodeView.m */,
+				CE634A6A1FA300E000C75C39 /* CodeTextFieldView.h */,
+				CE634A6B1FA300E000C75C39 /* CodeTextFieldView.m */,
+				CE634A691FA300E000C75C39 /* DeleteKeyTextField.h */,
+				CE634A6D1FA300E000C75C39 /* DeleteKeyTextField.m */,
+			);
+			path = CodeTextFieldView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE634A3B1FA3001700C75C39 /* ViewController.m in Sources */,
+				CE634A6F1FA300E000C75C39 /* CodeTextFieldView.m in Sources */,
+				CE634A701FA300E000C75C39 /* DeleteKeyTextField.m in Sources */,
+				CE634A711FA300E000C75C39 /* AuthcodeView.m in Sources */,
 				CE634A461FA3001700C75C39 /* main.m in Sources */,
 				CE634A381FA3001600C75C39 /* AppDelegate.m in Sources */,
 			);
